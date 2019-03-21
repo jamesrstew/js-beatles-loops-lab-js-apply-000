@@ -55,9 +55,15 @@ function iLoveTheBeatles(num) {
   do {
     luv.push('I love the Beatles!')
   }
+<<<<<<< HEAD
   while (luv.length < 15 - num) {
     num++
 
+=======
+  while (luv.length < (15 - num)) {
+    num++
+    luv.push('I love the Beatles!')
+>>>>>>> 617f07d73af92443bf656834fe4a2cbf6f5814aa
   }
   return luv
 }
